@@ -19,8 +19,9 @@ then trains the model via Supervised Fine-tuning (SFT) for initialization and fo
 
 
 ## Architecture
+The core execution of **LiteSEA** is implemented in the src directory:
 ```text
-.
+src
 ├── convert_func.py              # Conversion function module
 ├── data_refinement.py           # Data refinement module
 ├── data_verification.py         # Data verification module
