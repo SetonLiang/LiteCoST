@@ -45,7 +45,7 @@ src
 
 ## Usage
 1. Construct the CoST Data
-```
+```python
 python main.py --model gpt-4o --dataset Loong --structured --document
 
 cd src
@@ -54,11 +54,11 @@ python data_refinement.py
 ```
 
 2. Conduct SFT Training
-```
+```python
 python sft.py
 ```
 
 3. Conduct GRPO Optimization
-```
+```python
 python grpo.py
 ```
