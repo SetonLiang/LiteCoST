@@ -1,8 +1,9 @@
 # LiteSEA
-An RL-enhanced framework designed to automatically finetune lightweight SLMs for Structured Extraction and Analytics.
+An RL-enhanced framework designed to automatically finetune lightweight SLMs for structured knowledge extraction and analytics.
 
 ## Overview
-
+LiteSEA first constructs high-quality Chain-of-Structured-Thought (CoST) data through structure analysis, data distillation, LLM-based automatic verification, and iterative refinement. 
+then trains the model via Supervised Fine-tuning (SFT) for initialization and format adaptation, followed by Group Relative Policy Optimization (GRPO) with dual-level rewards to enhance structured extraction capabilities.
 
 ## Method
 ### Chain-of-Structured-Thought (CoST) Data Generation
@@ -17,10 +18,7 @@ An RL-enhanced framework designed to automatically finetune lightweight SLMs for
 2. Group Relative Poilcy Optimization (GRPO)
 
 
-
 ## Architecture
 
 
 ## Usage
-
-
