@@ -19,7 +19,26 @@ then trains the model via Supervised Fine-tuning (SFT) for initialization and fo
 
 
 ## Architecture
-
+.
+├── convert_func.py          // Conversion function module
+├── data_refinement.py       // Data refinement module
+├── data_verification.py     // Data verification module
+├── extract                  // Extraction module
+│   ├── graph.py             // Graph class
+│   ├── main.py              // Main program
+│   ├── table.py             // Table class
+│   ├── to_desc.py           // Convert to description
+│   ├── to_graph.py          // Convert to graph 
+│   └── to_table.py          // Convert to table
+├── grpo.py                  // GRPO module
+├── sft.py                   // SFT module
+├── prompt.py                // Prompt Template module
+├── reasoner.py              // Reasoning module
+├── reward.py                // Reward module
+├── structure_analysis       // Structure analysis module
+│   ├── query2schema.py      // Schema Construction
+│   └── structure_decision.py// Structure decision
+└── utils.py                 // Utility functions module
 
 ## Usage
 Construct the CoST Data:
