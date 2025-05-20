@@ -22,3 +22,7 @@ then trains the model via Supervised Fine-tuning (SFT) for initialization and fo
 
 
 ## Usage
+Construct the CoST Data:
+```
+python main.py --model gpt-4o --dataset Loong --structured --document
+```
