@@ -1,4 +1,4 @@
-# LiteSEA
+# LiteCoST
 An RL-enhanced framework designed to automatically finetune lightweight SLMs for structured knowledge extraction and analytics.
 
 ## Overview
@@ -6,20 +6,20 @@ LiteSEA first constructs high-quality Chain-of-Structured-Thought (CoST) data th
 then trains the model via Supervised Fine-tuning (SFT) for initialization and format adaptation, followed by Group Relative Policy Optimization (GRPO) with dual-level rewards to enhance structured extraction capabilities.
 
 ## Method
-### Chain-of-Structured-Thought (CoST) Data Generation
+### CoST: Structure-First Reasoning and Trace Generation
 1. Structure Analysis
 2. Data Distillation
 3. Data Verification
 4. Data Refinement
 
 
-### Two-step Model Training
+### SLM Fine-Tuning: SFT → GRPO
 1. Supervised Fine-Tuning (SFT)
 2. Group Relative Poilcy Optimization (GRPO)
 
 
 ## Architecture
-The core execution of **LiteSEA** is implemented in the src directory:
+The core execution of **LiteCoST** is implemented in the src directory:
 ```text
 src
 ├── convert_func.py              # Conversion function module
@@ -44,7 +44,7 @@ src
 ```
 
 ## Usage
-1. Construct the CoST Data
+1. Generate the Serialized Structured Output 
 ```python
 python main.py --model gpt-4o --dataset Loong --structured --document
 
