@@ -1,7 +1,6 @@
 set -x
 export CUDA_VISIBLE_DEVICES=6,7
 export N_GPUS=2
-# export BASE_MODEL="/data/liangzhuowen/hf_models/Llama-3.2-3B-Instruct"
 export BASE_MODEL="./training/models/qwen2.5-7b-instruct"
 
 # Use relative paths
