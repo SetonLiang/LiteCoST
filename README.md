@@ -94,12 +94,14 @@ bash scripts/run_grpo_cost.sh
 
 <p><b>Efficacy of Chain-of-Structured-Thought (CoST).</b></p>
 
-<div style="display: flex; justify-content: center; gap: 16px;">
-  <figure style="margin: 0;">
-    <img src="assets/CoST_finance.png" alt="Main results of end-to-end performance" width="450">
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 16px;">
+  <figure style="margin: 0; flex: 1; text-align: center;">
+    <img src="assets/CoST_finance.png" alt="Finance" style="width: 100%; height: auto; max-height: 320px; object-fit: contain;">
+    <figcaption><b>Finance</b></figcaption>
   </figure>
-  <figure style="margin: 0;">
-    <img src="assets/CoST_general.png" alt="Efficiency and performance comparison" width="450">
+  <figure style="margin: 0; flex: 1; text-align: center;">
+    <img src="assets/CoST_general.png" alt="General Knowledge" style="width: 100%; height: auto; max-height: 320px; object-fit: contain;">
+    <figcaption><b>General Knowledge</b></figcaption>
   </figure>
 </div>
 
