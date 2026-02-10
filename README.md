@@ -3,7 +3,7 @@
 
 <div align="center">
 
-[![OpenReview](https://img.shields.io/badge/OpenReview-LiteCoST-blue.svg)](https://openreview.net/forum?id=faECRsdRav)
+[![OpenReview](https://img.shields.io/badge/OpenReview-LiteCoST-brightgreen.svg)](https://openreview.net/forum?id=faECRsdRav)
 [![Data](https://img.shields.io/badge/🤗-Data-orange)](https://huggingface.co/datasets/lxtlxt/leadData)
 [![Python](https://img.shields.io/badge/Python-3.11.10-3776AB.svg?style=flat)](https://www.python.org/downloads/release/python-31110/)
 
