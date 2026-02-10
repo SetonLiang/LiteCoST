@@ -3,7 +3,7 @@
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-2503.22402-<COLOR>.svg)](https://arxiv.org/abs/2505.07437)
+[![OpenReview](https://img.shields.io/badge/OpenReview-LiteCoST-blue.svg)](https://openreview.net/forum?id=faECRsdRav)
 [![Data](https://img.shields.io/badge/🤗-Data-orange)](https://huggingface.co/datasets/lxtlxt/leadData)
 [![Python](https://img.shields.io/badge/Python-3.11.10-3776AB.svg?style=flat)](https://www.python.org/downloads/release/python-31110/)
 
@@ -28,20 +28,18 @@
 
 **Pillar 2: SLM fine- tuning (SFT → GRPO)** trains an SLM with the CoST supervision in two phases: Supervised Fine-Tuning to learn structural patterns, formatting rules, and reasoning steps, followed by Group Relative Policy Optimization with dual signals that reward both answer/format quality and step/process consistency—transferring structure-first behavior to an efficient SLM for low-latency deployment.
 
-## Method
-### CoST: Structure-First Reasoning and Trace Generation
-1. Structure Analysis
-2. Trace Geneartion
-3. Data Verification
-4. Data Refinement
+## 🏗️ Method & Architecture
+### CoST: Structure-First Reasoning and Trace Generation 
+1. 🔍 Structure Analysis
+2. 🧠 Trace Geneartion
+3. ✅ Data Verification
+4. 🔁 Data Refinement
 
 
 ### SLM Fine-Tuning: SFT → GRPO
-1. Supervised Fine-Tuning (SFT)
-2. Group Relative Poilcy Optimization (GRPO)
+1. 🎯 Supervised Fine-Tuning (SFT)
+2. ⚡ Group Relative Poilcy Optimization (GRPO)
 
-
-## Architecture
 The core execution of **LiteCoST** is implemented in the src directory:
 ```text
 src
