@@ -11,8 +11,7 @@
 
 
 ## 🎉 **News**
-- **[2026-01-26]** Our **[LiteCoST](https://github.com/SetonLiang/LiteCoST)** is accepted by ICLR’26.
-**.
+- **[2026-01-26]** Our **[LiteCoST](https://github.com/SetonLiang/LiteCoST)** is accepted by **ICLR’26**.
 
 
 ## 📋 **Overview**
@@ -107,14 +106,17 @@ bash scripts/run_grpo_cost.sh
 <p><b>Effectiveness: How good is LiteCoST for SSO Generation?</b></p>
 
 <div style="display: flex; justify-content: center; gap: 16px; margin-top: 16px;">
-  <figure style="margin: 0;">
-    <img src="assets/litecost_finance.png" alt="Placeholder figure 1" width="300">
+  <figure style="margin: 0; flex: 1;">
+    <img src="assets/litecost_finance.png" alt="Finance" style="width: 100%; height: auto;">
+    <figcaption><b>Finance</b></figcaption>
   </figure>
-  <figure style="margin: 0;">
-    <img src="assets/litecost_legal.png" alt="Placeholder figure 2" width="300">
+  <figure style="margin: 0; flex: 1;">
+    <img src="assets/litecost_legal.png" alt="Legal" style="width: 100%; height: auto;">
+    <figcaption><b>Legal</b></figcaption>
   </figure>
-  <figure style="margin: 0;">
-    <img src="assets/litecost_general.png" alt="Placeholder figure 3" width="300">
+  <figure style="margin: 0; flex: 1;">
+    <img src="assets/litecost_general.png" alt="General Knowledge" style="width: 100%; height: auto;">
+    <figcaption><b>General Knowledge</b></figcaption>
   </figure>
 </div>
 
