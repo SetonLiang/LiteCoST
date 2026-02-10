@@ -99,9 +99,9 @@ bash scripts/run_grpo_cost.sh
     <img src="assets/CoST_finance.png" alt="Finance" style="width: 100%; height: auto; max-height: 320px; object-fit: contain;">
     <figcaption><b>Finance</b></figcaption>
   </figure>
-  <figure style="margin: 0; flex: 1; text-align: center;">
+  <!-- <figure style="margin: 0; flex: 1; text-align: center;">
     <img src="assets/CoST_general.png" alt="General Knowledge" style="width: 100%; height: auto; max-height: 320px; object-fit: contain;">
-    <figcaption><b>General Knowledge</b></figcaption>
+    <figcaption><b>General Knowledge</b></figcaption> -->
   </figure>
 </div>
 
@@ -116,10 +116,10 @@ bash scripts/run_grpo_cost.sh
     <img src="assets/litecost_legal.png" alt="Legal" style="width: 100%; height: auto;">
     <figcaption><b>Legal</b></figcaption>
   </figure>
-  <figure style="margin: 0; flex: 1;">
+  <!-- <figure style="margin: 0; flex: 1;">
     <img src="assets/litecost_general.png" alt="General Knowledge" style="width: 100%; height: auto;">
     <figcaption><b>General Knowledge</b></figcaption>
-  </figure>
+  </figure> -->
 </div>
 
 </div>
