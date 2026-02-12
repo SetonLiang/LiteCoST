@@ -4,7 +4,7 @@
 <div align="center">
 
 [![OpenReview](https://img.shields.io/badge/OpenReview-LiteCoST-brightgreen.svg)](https://openreview.net/forum?id=faECRsdRav)
-[![Model](https://img.shields.io/badge/🤗-Data-orange)](https://github.com/SetonLiang/LiteCoST)
+[![Model](https://img.shields.io/badge/🤗-Model-orange)](https://github.com/SetonLiang/LiteCoST)
 [![Python](https://img.shields.io/badge/Python-3.11.10-3776AB.svg?style=flat)](https://www.python.org/downloads/release/python-31110/)
 
 </div>
@@ -17,13 +17,13 @@
 ## 📋 **Overview**
 
 <div align="center">
-  <img src="assets/framework.png" alt="Overview Figure" width="600"/>
+  <img src="assets/framework.png" alt="Overview Figure" width="800"/>
 </div>
 
 **Pillar 1: Chain-of-Structured-Thought (CoST)** uses a high-capability LLM purely as a trace generator: it proposes a minimal structure, executes a step-wise, structure-guided trace over the documents, serializes the result, and verifies/refines it (optionally with an LLM-as-judge). 
 
 <div align="center">
-  <img src="assets/grpo.png" alt="Overview Figure" width="600"/>
+  <img src="assets/grpo.png" alt="Overview Figure" width="800"/>
 </div>
 
 **Pillar 2: SLM fine- tuning (SFT → GRPO)** trains an SLM with the CoST supervision in two phases: Supervised Fine-Tuning to learn structural patterns, formatting rules, and reasoning steps, followed by Group Relative Policy Optimization with dual signals that reward both answer/format quality and step/process consistency—transferring structure-first behavior to an efficient SLM for low-latency deployment.
